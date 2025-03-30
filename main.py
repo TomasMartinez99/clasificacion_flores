@@ -36,6 +36,11 @@ plt.figure(figsize=(10, 6))
 # y el ancho del pétalo (eje Y) para todas las flores del dataset.
 sns.scatterplot(data=df, x=nombres_caract[2], y=nombres_caract[3], hue='especie')
 
+# Se genera el gráfico de dispersión
+plt.title('Longitud vs. Ancho de Pétalo')
+plt.savefig('grafico_iris.png')  # Guarda la imagen en un archivo
+plt.show()  # Muestra el gráfico en la pantalla
+
 # Dividir los datos en entrenamiento y prueba.
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
