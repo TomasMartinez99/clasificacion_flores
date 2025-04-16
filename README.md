@@ -67,6 +67,5 @@ Esta matriz muestra que todas las flores fueron clasificadas correctamente en su
 
 Posibles mejoras para este proyecto:
 - Probar diferentes algoritmos de clasificación
-- Realizar una búsqueda de hiperparámetros para optimizar el modelo
 - Implementar validación cruzada para una evaluación más robusta
 - Crear una interfaz de usuario simple para la predicción de especies
